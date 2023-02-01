@@ -19,7 +19,6 @@ class FirebaseHandler:
                 'humidity' : humidity,
                 'timestamp' : time.time()
             }
-            # timestamp to string method
             doc.set(data)
             print("save successed.")
             return data
